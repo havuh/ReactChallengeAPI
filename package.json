@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "install": "npm install",
+    "install": "npm install --omit=dev",
     "start": "node server.js",
     "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
