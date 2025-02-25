@@ -1,0 +1,83 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "year": 2017,
+      "genre": "Pop",
+      "coverImages": [
+        "https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png",
+        "https://i1.sndcdn.com/artworks-000206844384-uzp8t5-t1080x1080.jpg"
+        ]
+    },
+    {
+      "id": 2,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "year": 2019,
+      "genre": "Synthwave / Pop",
+      "coverImages": [
+        "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+        "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36"
+        ]
+    },
+    {
+      "id": 3,
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "year": 2010,
+      "genre": "Soul / Pop",
+      "coverImages": [
+        "https://upload.wikimedia.org/wikipedia/en/7/74/Adele_-_Rolling_in_the_Deep.png"
+        ]
+    },
+    {
+      "id": 4,
+      "title": "Ring x Ring",
+      "artist": "BILLLIE",
+      "year": 2021,
+      "genre": "K-Pop",
+      "coverImages": [
+        "https://i.scdn.co/image/ab67616d0000b2734c5be128bd1b55bf36041574",
+        "https://thebiaslist.com/wp-content/uploads/2021/11/billlie-ring-x-ring.jpg",
+        "https://www.asianjunkie.com/wp-content/uploads/2021/11/BilllieRingXRing.jpg"
+        ]
+    },
+    {
+      "id": 5,
+      "title": "Dynamite",
+      "artist": "BTS",
+      "year": 2020,
+      "genre": "K-Pop / Disco",
+      "coverImages": [
+        "https://i.scdn.co/image/ab67616d0000b2734c5be128bd1b55bf36041574",
+        "https://thebiaslist.com/wp-content/uploads/2021/11/billlie-ring-x-ring.jpg",
+        "https://www.asianjunkie.com/wp-content/uploads/2021/11/BilllieRingXRing.jpg"
+        ]
+    },
+    {
+      "id": 6,
+      "title": "Havana",
+      "artist": "Camila Cabello ft. Young Thug",
+      "year": 2017,
+      "genre": "Latin Pop",
+      "coverImages": [
+        "https://i.scdn.co/image/ab67616d0000b273d93cf4d07ba50d7b32ca7c44",
+        "https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4"
+        ]
+    },
+    {
+      "id": 7,
+      "title": "GingaMingaYo (The Strange World)",
+      "artist": "BILLLIE",
+      "year": 2022,
+      "genre": "K-Pop",
+      "coverImages": [
+        "https://i.scdn.co/image/ab67616d0000b27337392cac38ca8efa2315b04e",
+        "https://thebiaslist.com/wp-content/uploads/2022/02/billlie-gingamingayo-the-strange-world.jpg",
+        "https://i1.sndcdn.com/artworks-w5IMfcppykmRlDZH-JIzTDg-t500x500.jpg"
+        ]
+    }
+  ]
+}
