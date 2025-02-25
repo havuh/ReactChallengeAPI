@@ -3,6 +3,8 @@ const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
+const PORT = process.env.PORT || 3000;
+
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
@@ -14,7 +16,7 @@ server.use(middlewares);
 const SECRET_KEY = "supersecretkey";
 const expiresIn = "1h";
 
-// Simulación de login con token
+
 server.post("/login", (req, res) => {
   const { email, password } = req.body;
   console.log(email, password);
@@ -47,7 +49,7 @@ server.post("/login", (req, res) => {
   }
 });
 
-// Middleware de autenticación
+
 server.use((req, res, next) => {
   if (req.path === "/login") return next();
 
@@ -63,7 +65,7 @@ server.use((req, res, next) => {
   });
 });
 
-// Endpoints de canciones
+
 server.get("/songs", (req, res) => {
   res.json({
     message: "Lista de canciones populares",
@@ -97,8 +99,8 @@ server.delete("/songs/:id", (req, res) => {
   res.json({ message: "Canción eliminada" });
 });
 
-// Usar JSON Server
+
 server.use(router);
-server.listen(3000, () => {
-  console.log("🎵 Servidor corriendo en http://localhost:3000");
+server.listen(PORT, () => {
+  console.log(`🎵 Servidor corriendo en ${PORT}`);
 });
