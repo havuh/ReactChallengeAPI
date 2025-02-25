@@ -2,7 +2,7 @@
   "name": "json-server-auth",
   "version": "1.0.0",
   "description": "",
-  "main": "api/server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "echo hello",
