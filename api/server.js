@@ -69,20 +69,20 @@ server.use((req, res, next) => {
 server.get("/songs", (req, res) => {
   res.json({
     message: "Lista de canciones populares",
-    data: require("./db.json").songs,
+    data: require("../db.json").songs,
     status: 200,
   });
 });
 
 server.post("/songs", (req, res) => {
-  const db = require("./db.json");
+  const db = require("../db.json");
   const newSong = { id: db.songs.length + 1, ...req.body };
   db.songs.push(newSong);
   res.status(201).json({ message: "Canción agregada", data: newSong });
 });
 
 server.put("/songs/:id", (req, res) => {
-  const db = require("./db.json");
+  const db = require("../db.json");
   const songIndex = db.songs.findIndex((s) => s.id == req.params.id);
   if (songIndex === -1) return res.status(404).json({ message: "Canción no encontrada" });
 
@@ -91,7 +91,7 @@ server.put("/songs/:id", (req, res) => {
 });
 
 server.delete("/songs/:id", (req, res) => {
-  const db = require("./db.json");
+  const db = require("../db.json");
   const songIndex = db.songs.findIndex((s) => s.id == req.params.id);
   if (songIndex === -1) return res.status(404).json({ message: "Canción no encontrada" });
 

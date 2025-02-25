@@ -2,11 +2,11 @@
   "name": "json-server-auth",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "api/server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "exit 0",
-    "verceñ-build": "echo hello"
+    "build": "echo hello",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
