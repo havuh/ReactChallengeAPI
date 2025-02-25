@@ -6,7 +6,7 @@
   "scripts": {
     "install": "npm install --omit=dev",
     "start": "node server.js",
-    "build": "",
+    "build": "echo 'No build step needed'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
